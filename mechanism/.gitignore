@@ -1,0 +1,7 @@
+asspath
+/.git
+src/main/webapp/img
+.springBeans
+/build
+.settings/
+.project

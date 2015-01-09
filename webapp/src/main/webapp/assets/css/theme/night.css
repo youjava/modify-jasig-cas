@@ -1,0 +1,116 @@
+/*这里的声明用于主题的切换，其他样式在main.css里*/
+html{
+    background-color: #292c3e;
+    background: #373a47 url(../../img/icons/index-bg.png)  repeat-x;
+}
+/*txtcolor*/
+.red{color: #dc210a;}
+.darkblue{color: #2d3c5e;}
+.gold{color: #a28e5c;}
+.black{color: white;}
+.gray{color: #9b9a99;}
+.white{color: white;}
+
+/*bgcolor*/
+.bg-white{background-color: #fbfaf8;}
+.bg-darkgray{background-color: #979797;}
+.bg-lightgray{background-color: #dddfe4;}
+.bg-gray{background-color: #c1c6ce;}
+.bg-darkblue{background-color: #2d3c5e;}
+.bg-gold{background-color: #a28e5c;}
+
+/*style*/
+body{ background: url("../../img/night/hill-night.png") center no-repeat;}
+
+.top{ background: url("../../img/night/star-night.png") top no-repeat;}
+.btn-normal{background-color: #86868e;}
+.btn-impor{ background-color: #e8ac6c;}
+.btn-normal:hover{
+    cursor: pointer;
+    background-color: #99999d;
+}
+.btn-impor:hover{
+    cursor: pointer;
+    background-color: #f4b97a;
+}
+.content .btn-tab span{ background: url("../../img/night/arrow-right-white.png")no-repeat;}
+.color-line span:first-child{
+    width: 33%;
+    background-color: #732932;
+}
+.color-line span:nth-child(2){
+    width: 34%;
+    background-color: #685850;
+}
+.color-line span:nth-child(3){
+    width: 33%;
+    background-color: #99999f;
+}
+.login-content{background-color: rgba(57,57,70,.72);}
+.username input{background-color: rgba(255,255,255,0);}
+.icon-txt input{ color: #ffffff;}
+.input-bar input{background: transparent url(../../img/night/input-normal-night.png) left bottom no-repeat;}
+.input-bar input:focus{ background: transparent url(../../img/night/input-active-night.png) left bottom no-repeat;}
+/*.input-bar .txt{background: transparent url(../../img/night/input-normal-night.png) right bottom no-repeat;}*/
+/*.input-bar .txt:focus{ background: transparent url(../../img/night/input-active-night.png) right bottom no-repeat;}*/
+.input-content .input-bar span i{color: #f4b97a;}
+.showstep .step-normal {
+    background: url("../../img/night/circle-normal.png") no-repeat;
+    color: #99999f;
+}
+.showstep .step-active {
+    background: url("../../img/night/circle-active.png") no-repeat;
+    color: white;
+}
+.icon-active{color: #ffffff;}
+.icon-normal{color: #99999f;}
+
+/*apply*/
+.apply-list-normal{
+    background-color: rgba(255,255,255,.15);
+    color: white;
+}
+.apply-list-normal .apply-up-3-right{
+    background-color: rgba(255,255,255,.20);
+    color: #ffffff;
+}
+.apply-list-normal .apply-up-2-right{
+    background-color: rgba(255,255,255,.20);
+    color: #ffffff;
+}
+.apply-list-normal:hover{background-color: rgba(255,255,255,.20);}
+.apply-list-normal .apply-up-3-right:hover{ background-color: rgba(255,255,255,.25);}
+.apply-list-normal .apply-up-2-right:hover{ background-color: rgba(255,255,255,.25);}
+.apply-list-active{
+    background-color: rgba(255,255,255,1);
+    color: #131313;
+}
+.apply-list-active .apply-up-3-right{
+    /*border-left: 1px solid #e3e2e2;*/
+    /*color: #e8ac6c;*/
+    background-color: #f4b97a;
+    color: white;
+}
+.apply-list-active .apply-up-2-right{
+    background-color: #f4b97a;
+    color: white;
+}
+/*@media*/
+@media (max-width: 768px) {
+    body{ background: url("../../img/night/hill-night.png") center 140px no-repeat;}
+}
+@media(max-width: 400px) {
+    .input-bar input{
+        position: absolute;
+        top: 15px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+        background: transparent url(../../img/night/input-normal-2-night.png) left bottom no-repeat;
+    }
+    .input-bar input:focus{
+        border: 0;
+        outline: medium;
+        background: transparent url(../../img/night/input-active-2-night.png) left bottom no-repeat;
+    }
+}
